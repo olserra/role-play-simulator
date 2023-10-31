@@ -33,7 +33,7 @@ export function EmptyScreen({ setInput }: Pick<UseChatHelpers, 'setInput'>) {
           Welcome to Sales Simulator!
         </h1>
         <p className="mb-2 leading-normal text-muted-foreground">
-          For this case you will be visiting Jason Brody, a 32 year-old
+          For this case you will be visiting Jason Brody, a 52 year-old
           executive, Head of Procurement in a large hospital, who has been
           referred to you as a possible lead to by your product.
         </p>
