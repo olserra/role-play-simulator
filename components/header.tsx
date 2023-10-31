@@ -1,8 +1,5 @@
 import * as React from 'react'
 
-import { cn } from '@/lib/utils'
-import { buttonVariants } from '@/components/ui/button'
-import { IconGitHub } from '@/components/ui/icons'
 import { currentUser, UserButton } from '@clerk/nextjs'
 
 export async function Header() {
@@ -17,15 +14,9 @@ export async function Header() {
         </div>
       </div>
       <div className="flex items-center justify-end space-x-2 gap-4">
-        <a
-          target="_blank"
-          href="https://github.com/MaksymPetyak/patient-simulator"
-          rel="noopener noreferrer"
-          className={cn(buttonVariants({ variant: 'outline' }))}
-        >
-          <IconGitHub />
-          <span className="hidden ml-2 md:flex">GitHub</span>
-        </a>
+        <p className="text-sm">
+          Welcome, <span className="font-bold">{user.firstName}</span>
+        </p>
         <UserButton />
       </div>
     </header>

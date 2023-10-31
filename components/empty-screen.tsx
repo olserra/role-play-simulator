@@ -34,8 +34,8 @@ export function EmptyScreen({ setInput }: Pick<UseChatHelpers, 'setInput'>) {
         </h1>
         <p className="mb-2 leading-normal text-muted-foreground">
           For this case you will be visiting Jason Brody, a 52 year-old
-          executive, Head of Procurement in a large hospital, who has been
-          referred to you as a possible lead to by your product.
+          executive, senior buyer in a large hospital, who has been referred to
+          you as a possible lead to by your product.
         </p>
         {/*<p className="leading-normal text-muted-foreground">*/}
         {/*    */}
